@@ -21,12 +21,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Informacion.unity
     guid: 666fa2fc2293f004abe2d36114966d71
   - enabled: 1
-    path: Assets/Scenes/Pausa.unity
-    guid: ec4ed246cdd5bb4429074f7253aabdf0
-  - enabled: 1
     path: Assets/Scenes/Nivel_1.unity
     guid: fb62bb1e7a24a8d4f80aa85fc8d9d230
   - enabled: 1
     path: Assets/Scenes/Nivel_2.unity
     guid: f114a57402b9b4840a07c645136f895d
+  - enabled: 1
+    path: Assets/Scenes/Pausa.unity
+    guid: ec4ed246cdd5bb4429074f7253aabdf0
   m_configObjects: {}
