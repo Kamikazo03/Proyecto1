@@ -184,7 +184,7 @@ MonoBehaviour:
   m_text: Continuar
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3a997d3acfc86a741814d7f7498484a3, type: 2}
-  m_sharedMaterial: {fileID: -5185096315438999515, guid: 3a997d3acfc86a741814d7f7498484a3, type: 2}
+  m_sharedMaterial: {fileID: 1212051919307725091, guid: 3a997d3acfc86a741814d7f7498484a3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -479,7 +479,7 @@ MonoBehaviour:
   m_text: Grupo 1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3a997d3acfc86a741814d7f7498484a3, type: 2}
-  m_sharedMaterial: {fileID: -5185096315438999515, guid: 3a997d3acfc86a741814d7f7498484a3, type: 2}
+  m_sharedMaterial: {fileID: 1212051919307725091, guid: 3a997d3acfc86a741814d7f7498484a3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -677,7 +677,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
