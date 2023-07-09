@@ -1342,8 +1342,8 @@ GameObject:
   - component: {fileID: 5351815281061456279}
   - component: {fileID: 5351815281061456280}
   - component: {fileID: 5351815281061456281}
-  - component: {fileID: 1624426667751173084}
   - component: {fileID: 152574186918059539}
+  - component: {fileID: 1524169411202444576}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1436,14 +1436,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!81 &1624426667751173084
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5351815281061456282}
-  m_Enabled: 1
 --- !u!114 &152574186918059539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1458,6 +1450,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _musicSlider: {fileID: 1607902223983537852}
   _sfxSlider: {fileID: 2691582449397406453}
+--- !u!81 &1524169411202444576
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5351815281061456282}
+  m_Enabled: 1
 --- !u!1 &5351815281191590261
 GameObject:
   m_ObjectHideFlags: 0
