@@ -578,7 +578,7 @@ Camera:
   m_GameObject: {fileID: 519420028}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 1
   m_BackGroundColor: {r: 0.1595202, g: 0.5566038, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -1023,6 +1023,7 @@ GameObject:
   - component: {fileID: 937322999}
   - component: {fileID: 937322998}
   - component: {fileID: 937322997}
+  - component: {fileID: 937323001}
   m_Layer: 0
   m_Name: PJ Eimmy Quiijano
   m_TagString: Untagged
@@ -1043,18 +1044,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.01684928, y: 0.07301283}
+  m_Offset: {x: -0.05098939, y: 0.10715282}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.28, y: 1.28}
+    oldSize: {x: 3.2, y: 3.2}
     newSize: {x: 1.28, y: 1.28}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.93178415, y: 1.0216466}
+  m_Size: {x: 1.5463042, y: 1.7727268}
   m_EdgeRadius: 0
 --- !u!50 &937322998
 Rigidbody2D:
@@ -1137,13 +1138,33 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 937322996}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.09, y: -0.77, z: 0}
+  m_LocalPosition: {x: 4.85, y: -0.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &937323001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 937322996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62e1cf34a2c02b14b954e7c047fe6b2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isLeft: 0
+  isRigth: 0
+  isJump: 0
+  canJump: 1
+  rb: {fileID: 937322998}
+  jumpForce: 1500
+  speedForce: 3000
+  waitJump: 0.5
 --- !u!224 &1042615902 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5351815281056316717, guid: 1f7d3dc7c49e1e843996fe0f7816ea47, type: 3}
@@ -1614,7 +1635,7 @@ GameObject:
   - component: {fileID: 1647671892}
   - component: {fileID: 1647671895}
   m_Layer: 0
-  m_Name: Circle
+  m_Name: coin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1722,9 +1743,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1647671891}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8fd7a35a1f812e4dac8abd099ab8356, type: 3}
+  m_Script: {fileID: 11500000, guid: 06ee51e4b7456204f8b1dde553c890d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  source: 5
+  destination: 6
 --- !u!1 &1701095433
 GameObject:
   m_ObjectHideFlags: 0
