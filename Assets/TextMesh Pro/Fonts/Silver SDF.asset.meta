@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/TextMesh Pro/Fonts/Silver SDF.asset.meta
 guid: 3a997d3acfc86a741814d7f7498484a3
 NativeFormatImporter:
+========
+guid: 58a37c45c15a8694cb27af2d9c117b0f
+DefaultImporter:
+>>>>>>>> 54a337ce73d7a1e77d0a33069bdc0c61eacd8be2:Assets/Scenes/Menu pausa.unity.meta
   externalObjects: {}
   mainObjectFileID: 11400000
   userData: 
